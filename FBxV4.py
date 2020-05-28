@@ -57,7 +57,7 @@ logo = """
 \033[1;98m| |   | |__| | / ^ \   \   /         4
 \033[1;98m|_|   |______|/_/ \_\   \_/          4
 \033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║
-\033[1;96m    ║✯ Creator =  ZERO & ZXXX-ANGEL & ZALASXA            ║    
+\033[1;96m    ║✯ Creator =  ZERO & ZxXx-ANGEL & ZALASXA            ║    
 \033[1;98m    ║✯ Youtube =  Zero                                  ║  
 \033[1;96m    ║✯ WhatsApp=  +6285320091382                        ║
 \033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║"""
@@ -306,7 +306,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:rana
+			pass #Dev:V3N0M
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -516,7 +516,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mV3N0M\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By ZERO-ZXXXANGEL-ZALASXA--•◈•---»" #Dev:V3N0M
+	print "  \033[1;91m«---•◈•---Developed By ZERO-ZxXxANGEL-ZALASXA--•◈•---»" #Dev:V3N0M
 	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 FBxMOD.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
