@@ -223,7 +223,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print " \033[1;36;40m●══════════════════◄►══════════════════●\n"
+		jalan " \033[1;36;40m●══════════════════◄►══════════════════●\n"
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
 		menu()
@@ -518,9 +518,9 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mAnonymous\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By ZalasXa-ZxXx-Zero--•◈•---»" #Dev:Rana
-	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Joker.py)↩\033[1;97m....'
+	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mFBxV4\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "  \033[1;91m«---•◈•---Developed By ZalasXa-ZxXx-Zero--•◈•---»" #Dev:Shelaa
+	print '\033[1;93m✅Proses Telah Selesan Tinggal Tekan➡ Ctrl+Z.↩ SelanjutNya (python2 FBxV4.VNM)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
  ____________¶¶¶1¶¶_________¶¶¶¶¶¶¶___________ 
@@ -541,14 +541,14 @@ ____¶¶¶¶____________¶¶¶¶¶¶___________¶¶¶¶____
 ______¶¶¶__________¶¶¶__¶¶¶__________¶¶______ 
 _______¶¶¶_________¶______¶_________¶¶¶______
  
-         Checkpoint ID Open After 7 Days
+         Akun CP DiamKan Selama 3-7 Hari
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ....Bacot Lu Amnjink....... \033[1;95m :
+: \033[1;91m ....I LOVE YOU SHELAA....... \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
               \033[1;91m Zero"""
 	
-	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
+	raw_input("\n\033[1;95m[\033[1;91mKembali\033[1;95m]")
 	menu()
 
 if __name__ == '__main__':
