@@ -90,7 +90,7 @@ print  """
 """
 jalan("\033[1;93m             SEKALI LAGI, GUNAKAN SC INI SEBIJAK MUNGKIN")             
 jalan("\033[1;93m                  GUNAKAN SC INI SEPERLUNYA SAJA")             
-jalan("\033[1;93m                 DAN AKIBAT ANDA TANGGUNG SENDIRI") 
+jalan("\033[1;93m                DAN AKIBATNYA ANDA TANGGUNG SENDIRI") 
 jalan("\033[1;97m")
 jalan("\033[1;91m                        DAN SATU HAL LAGI")
 jalan("\033[1;91m                KALIAN SEMUA HARUS TAU TENTANG INI")
@@ -108,7 +108,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m•\x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:Shelaa
 	    time.sleep(2)
             loop = 'false'
         else:
