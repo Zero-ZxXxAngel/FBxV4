@@ -223,7 +223,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		jalan " \033[1;36;40m●══════════════════◄►══════════════════●\n"
+		jalan(" \033[1;36;40m●══════════════════◄►══════════════════●\n")
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
 		menu()
@@ -262,7 +262,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		jalan "\033[1;97m•◈•══════•◈•\033[1;91mFBxV4\033[1;97m•◈•══════•◈•"
+		jalan("\033[1;97m•◈•══════•◈•\033[1;91mFBxV4\033[1;97m•◈•══════•◈•")
 		jalan('\033[1;91mMengumpulkan ID \033[1;91m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -272,7 +272,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mMasukan ID\033[1;95m: \033[1;95m")
-		jalan "\033[1;92m•◈•══════••◈•\033[1;91mFBxV4\033[1;95m•◈•══════••◈•"
+		jalan("\033[1;92m•◈•══════••◈•\033[1;91mFBxV4\033[1;95m•◈•══════••◈•")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -298,10 +298,10 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mBerhenti Tekan CTRL+Z \033[1;94m    ❈"
-	jalan "   \033[1;92m●══════════════════◄►══════════════════●"
+	jalan("   \033[1;92m●══════════════════◄►══════════════════●")
 
 	jalan('           \033[1;91m Mulaicloning Harap Tunggu...')
-	jalan  "  \033[1;92m ●══════════════════◄►══════════════════●" 
+	jalan("  \033[1;92m ●══════════════════◄►══════════════════●")
 
 	def main(arg):
 		global cekpoint,oks
