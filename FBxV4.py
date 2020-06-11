@@ -48,9 +48,9 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[1;91m               ____________      _   _    ___ 
-\033[1;91m               |  ___| ___ \    | | | |  /   |
-\033[1;91m               | |_  | |_/ /_  _| | | | / /| |
+\033[1;92m               ____________      _   _    ___ 
+\033[1;92m               |  ___| ___ \    | | | |  /   |
+\033[1;92m               | |_  | |_/ /_  _| | | | / /| |
 \033[0m               |  _| | ___ \ \/ / | | |/ /_| |
 \033[0m               | |   | |_/ />  <\ \_/ /\___  |
 \033[0m               \_|   \____//_/\_\\___/     |_/
@@ -77,25 +77,25 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[1;97m************************************************
-\033[1;96m~ GUNAKAN SCRIPT INI SEBIJAKSANA MUNGKIN, OK
-\033[1;97m************************************************
+\033[1;97m       ************************************************
+\033[1;96m       ~ GUNAKAN SCRIPT INI SEBIJAKSANA MUNGKIN, OK
+\033[1;97m       ************************************************
 
-\033[1;95m____________      _   _    ___ 
-\033[1;91m|  ___| ___ \    | | | |  /   |
-\033[1;90m| |_  | |_/ /_  _| | | | / /| |
-\033[1;92m|  _| | ___ \ \/ / | | |/ /_| |
-\033[1;94m| |   | |_/ />  <\ \_/ /\___  |
-\033[1;96m\_|   \____//_/\_\\___/     |_/
+          \033[1;92m____________      _   _    ___ 
+          \033[1;92m|  ___| ___ \    | | | |  /   |
+          \033[1;92m| |_  | |_/ /_  _| | | | / /| |
+          \033[0m|  _| | ___ \ \/ / | | |/ /_| |
+          \033[0m| |   | |_/ />  <\ \_/ /\___  |
+          \033[0m\_|   \____//_/\_\\___/     |_/
 """
-jalan("\033[1;92m   SEKALI LAGI, GUNAKAN SC INI SEBIJAK MUNGKIN")             
-jalan("\033[1;92m        GUNAKAN SC INI SEPERLUNYA SAJA")             
-jalan("\033[1;92m       DAN AKIBAT ANDA TANGGUNG SENDIRI") 
+jalan("\033[1;93m         SEKALI LAGI, GUNAKAN SC INI SEBIJAK MUNGKIN")             
+jalan("\033[1;93m              GUNAKAN SC INI SEPERLUNYA SAJA")             
+jalan("\033[1;93m             DAN AKIBAT ANDA TANGGUNG SENDIRI") 
 jalan("\033[1;97m")
-jalan("\033[1;97m              DAN SATU HAL LAGI")
-jalan("\033[1;92m      KALIAN SEMUA HARUS TAU TENTANG INI")
+jalan("\033[1;92m                    DAN SATU HAL LAGI")
+jalan("\033[1;92m            KALIAN SEMUA HARUS TAU TENTANG INI")
 jalan("\033[1;92m")                                   
-jalan("\033[1;92m(SHELAA CHAN PUNYA GW, JADI JANGAN BERANI NIKING)")
+jalan("\033[1;95m      (SHELAA CHAN PUNYA GW, JADI JANGAN BERANI NIKING)")
 
 
 
