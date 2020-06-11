@@ -248,7 +248,7 @@ def super():
 	os.system('clear')
 	print logo
         jalan('\033[1;91m Maaf Hanya Ada 2 Pilihan')
-        jalan('\033[1;92m Tapi Di Jamin EDAN/GELO
+        jalan('\033[1;92m Tapi Di Jamin EDAN/GELO')
 	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;95m>_< Hack Teman."
 	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;95m>_< Hack Teman Dari Teman/Massal ."
 	print "     \033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m>_< Kembali"
