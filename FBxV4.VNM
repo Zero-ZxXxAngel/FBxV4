@@ -77,16 +77,16 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[1;97m            ************************************************
-\033[1;96m            ~  GUNAKAN SCRIPT INI SEBIJAKSANA MUNGKIN, OK  ~
-\033[1;97m            ************************************************
+\033[1;92m            ************************************************
+\033[1;91m            ~  GUNAKAN SCRIPT INI SEBIJAKSANA MUNGKIN, OK  ~
+\033[1;92m            ************************************************
 
-               \033[1;91m____________      _   _    ___ 
-               \033[1;91m|  ___| ___ \    | | | |  /   |
-               \033[1;91m| |_  | |_/ /_  _| | | | / /| |
-               \033[0m|  _| | ___ \ \/ / | | |/ /_| |
-               \033[0m| |   | |_/ />  <\ \_/ /\___  |
-               \033[0m\_|   \____//_/\_\\\___/     |_/
+                    \033[1;91m____________      _   _    ___ 
+                    \033[1;91m|  ___| ___ \    | | | |  /   |
+                    \033[1;91m| |_  | |_/ /_  _| | | | / /| |
+                    \033[0m|  _| | ___ \ \/ / | | |/ /_| |
+                    \033[0m| |   | |_/ />  <\ \_/ /\___  |
+                    \033[0m\_|   \____//_/\_\\\___/     |_/
 """
 jalan("\033[1;93m              SEKALI LAGI, GUNAKAN SC INI SEBIJAK MUNGKIN")             
 jalan("\033[1;93m                   GUNAKAN SC INI SEPERLUNYA SAJA")             
@@ -104,9 +104,9 @@ CorrectUsername = "ZalasXa"
 CorrectPassword = "ZxXx-Zero"
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;91m=>> \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
+    username = raw_input("\033[1;91m•\x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;91m=>> \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
+    	password = raw_input("\033[1;91m•\x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username #Dev:love_hacker
 	    time.sleep(2)
