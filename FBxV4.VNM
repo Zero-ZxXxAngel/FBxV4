@@ -96,6 +96,7 @@ jalan("\033[1;92m                    DAN SATU HAL LAGI")
 jalan("\033[1;92m            KALIAN SEMUA HARUS TAU TENTANG INI")
 jalan("\033[1;92m")                                   
 jalan("\033[1;95m      (SHELAA CHAN PUNYA GW, JADI JANGAN BERANI NIKING)")
+print("\033[1;90m")
 
 
 
