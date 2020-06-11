@@ -281,7 +281,7 @@ def pilih_super():
 			print"\x1b[1;91mID Not Found!"
 			raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 			super()
-		jalan"\033[1;91mGetting IDs\033[1;97m..."
+		jalan("\033[1;91mGetting IDs\033[1;97m...")
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
